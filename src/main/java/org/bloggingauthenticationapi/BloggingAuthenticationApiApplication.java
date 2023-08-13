@@ -1,4 +1,4 @@
-package com.example.bloggingauthenticationapi;
+package org.bloggingauthenticationapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,9 +1,9 @@
 services:
   postgres:
-    image: 'postgres:latest'
+    image: postgres:15.2-alpine3.17
     environment:
       - 'POSTGRES_DB=blogging_authentication_db'
       - 'POSTGRES_PASSWORD=secret-password-test'
-      - 'POSTGRES_USER=irvinlara9'
+      - 'POSTGRES_USER=blogging_user'
     ports:
-      - '5432'
+      - "5000:5432"
